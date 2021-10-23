@@ -1,0 +1,96 @@
+#avatar 
+{
+    /* height: 20px;
+    width: 20px; */
+    position: absolute;
+    top:30px;
+    left: 45%;
+    /* color: blanchedalmond; */
+}
+#avatar img{
+    /* position: absolute; */
+    /* left:50%; */
+    height: 100px;
+    width: 100px;
+}
+#avatar p{
+    /* position: absolute; */
+    color: blanchedalmond;
+    width: 500px;
+}
+.content{
+    position: relative;
+}
+a,li{
+    text-decoration: none;
+    list-style: none;
+}
+#nav{
+    width: 75%;
+    height: 43px;
+    background-color: white;
+    position: absolute;
+    top:250px;
+    /* 实现absolute元素居中  但不知道原理 */
+    left: 0;
+    right:0;
+    margin: 0 auto;
+}    
+.nav a{
+    width: 33%;
+    height: 43%;
+    float: left;
+    /* line-height: 100px; 设置line-height与父级元素的height相等 */
+    text-align: center; /*设置文本水平居中*/
+    overflow: hidden; /*防止内容超出容器或者产生自动换行*/
+    padding-top: 8px;
+    color: rgb(241, 224, 202);
+    border-right:1px rgb(241, 224, 202) solid ;
+}
+#introduction{
+    width: 300px;
+    height: 59px;
+    background-color: white;
+    position: absolute;
+    top:300px;
+    left:188px;
+}
+
+#introduction div{
+    width: 33%;
+    height: 100%;
+    float: left;
+    border-right:rgb(241, 224, 202) 1px solid;
+}
+#introduction a{
+    width: 33%;
+    height: 50%;
+    float: left;
+    /* text-align: center; */
+    padding: 15px 30px;
+    padding-top: 15px;
+    /* border-right:rgb(241, 224, 202) solid 1px solid; */
+    color: rgb(241, 224, 202);
+}
+#personal_information{
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top:370px;
+    left:188px;
+}
+#personal_information li{
+    color: rgb(241, 224, 202); 
+    padding: 2px 70px;
+    /* text-align: right; */
+}
+#content{
+    width: 810px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left:505px;
+    color: rgb(241, 224, 202);
+}
